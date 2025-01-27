@@ -1,0 +1,34 @@
+:root {
+  --text-color: #121212;
+}
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.heroSection {
+  padding-top: 135px;
+}
+section-title {
+  font-size: 18px;
+  color: var(--text-color);
+}
+
+/* exploer btn  */
+.exploreBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 200px;
+  height: 200px;
+  border: 1px solid gray;
+  background-color: black;
+  color: #fff;
+  border-radius: 50%;
+}
+.exploreBtn i {
+  color: white;
+  transform: rotate(-40deg);
+}

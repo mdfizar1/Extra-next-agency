@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cursor Follow</title>
+  <style>
+    .container {
+      width: 100vw;
+      height: 100vh;
+      background-color: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative; /* Make container relative for positioning the span */
+    }
+
+    .circle {
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      position: absolute; /* Position the span absolutely within the container */
+      border: 1px solid black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      pointer-events: none; /* So that the cursor doesn't interact with the span */
+      transition: 0.6s;
+    }
+    .dot {
+      width: 10px;
+      height: 10px;
+      display: block;
+      border-radius: 50%;
+      background-color: blue;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="circle">
+      <span class="dot"></span>
+    </div>
+  </div>
+
+  <script>
+    const container = document.querySelector('.container');
+    const circle = document.querySelector('.circle');
+
+    container.addEventListener('mousemove', (e) => {
+      const x = e.clientX; // Get X position of the mouse
+      const y = e.clientY; // Get Y position of the mouse
+      
+      // Move the circle to follow the mouse position
+      circle.style.left = `${x - 10}px`; // Subtract half of the circle's width to center it on the cursor
+      circle.style.top = `${y - 10}px`; // Subtract half of the circle's height to center it on the cursor
+    });
+  </script>
+
+</body>
+</html>

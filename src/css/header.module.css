@@ -1,0 +1,48 @@
+.headerContainer {
+  flex-wrap: nowrap !important;
+}
+.extraNav {
+  background-color: #fff !important;
+  padding: 45px 0px;
+}
+.logo {
+  margin-right: 0px !important;
+}
+.headerLeft {
+  display: flex;
+  align-items: center;
+  gap: 55px;
+}
+.menuIcon {
+  border: none;
+  background-color: #fff;
+}
+.menuIcon i {
+  font-size: 20px;
+}
+/* start mobile header */
+.mobileHeader {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.offcanvasLeft {
+  width: 33%;
+}
+.offcanvasCenter {
+  width: 33%;
+  overflow-Y: scroll;
+  height: 520px;
+}
+.offcanvasRight {
+  width: 33%;
+}
+/* end mobile header */
+
+
+/* resposnive  */
+@media (max-width: 991px) {
+  .offcanvasCenter {
+    width: 100%;
+  }
+}
