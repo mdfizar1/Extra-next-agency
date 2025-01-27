@@ -11,8 +11,8 @@ function Header() {
               <nav className={`navbar bg-body-tertiary fixed-top ${style.extraNav}`}>
               <div className={`container-fluid ${style.headerContainer}`}>
                 <div className={style.headerRight}>
-                  <a className={`navbar-brand ${style.logo}`} href="#">
-                    <img src={Logo}></img>
+                  <a href="#" className={`navbar-brand ${style.logo}`}>
+                    <img src={Logo} alt={"img"} />
                   </a>
                 </div>
                 <Nav />
@@ -21,13 +21,13 @@ function Header() {
                     <i className="fa-solid fa-magnifying-glass"></i>
                   </div>
                   <button className={style.menuIcon} type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                   <img src={MenuLogo} />
+                   <img src={MenuLogo} alt={"img"} />
                   </button>
                 </div>
                 <div className={`offcanvas offcanvas-end p-4 ${style.mobileHeader}`} tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                   <div className={` d-flex w-100 ${style.offcanvasContainer}`}>
                     <div className={`d-none d-lg-block ${style.offcanvasLeft}`}>
-                      <img src={Logo} className="offcanvas-title" id="offcanvasNavbarLabel" />
+                      <img src={Logo} className="offcanvas-title" id="offcanvasNavbarLabel" alt={"logo"} />
                         <h5 className="mt-5">Follow us</h5>
                         <ul className="list-group">
                           <li className="list-group-item border-0 py-1">Dribbble</li>
@@ -53,31 +53,31 @@ function Header() {
                           <div className="accordion-body">
                             <ul className="list-group">
                               <li className="list-group-item border-0">
-                                <a href="">Digital Maketing</a>
+                                <a href="#">Digital Maketing</a>
                               </li>
                               <li className="list-group-item border-0">
-                                <a href="">Digital Maketing Dark</a>
+                                <a href="#">Digital Maketing Dark</a>
                               </li>
                               <li className="list-group-item border-0">
-                                <a href="">Design Studio</a>
+                                <a href="#">Design Studio</a>
                               </li>
                               <li className="list-group-item border-0">
-                                <a href="">Digital Maketing</a>
+                                <a href="#">Digital Maketing</a>
                               </li>
                               <li className="list-group-item border-0">
-                                <a href="">Digital Maketing Dark</a>
+                                <a href="#">Digital Maketing Dark</a>
                               </li>
                               <li className="list-group-item border-0">
-                                <a href="">Design Studio</a>
+                                <a href="#">Design Studio</a>
                               </li>
                               <li className="list-group-item border-0">
-                                <a href="">Digital Maketing</a>
+                                <a href="#">Digital Maketing</a>
                               </li>
                               <li className="list-group-item border-0">
-                                <a href="">Digital Maketing Dark</a>
+                                <a href="#">Digital Maketing Dark</a>
                               </li>
                               <li className="list-group-item border-0">
-                                <a href="">Design Studio</a>
+                                <a href="#">Design Studio</a>
                               </li>
                             </ul>
                           </div>
@@ -94,31 +94,31 @@ function Header() {
                           <div className="accordion-body">
                           <ul className="list-group">
                               <li className="list-group-item border-0">
-                                <a href="">Digital Maketing</a>
+                                <a href="#">Digital Maketing</a>
                               </li>
                               <li className="list-group-item border-0">
-                                <a href="">Digital Maketing Dark</a>
+                                <a href="#">Digital Maketing Dark</a>
                               </li>
                               <li className="list-group-item border-0">
-                                <a href="">Design Studio</a>
+                                <a href="#">Design Studio</a>
                               </li>
                               <li className="list-group-item border-0">
-                                <a href="">Digital Maketing</a>
+                                <a href="#">Digital Maketing</a>
                               </li>
                               <li className="list-group-item border-0">
-                                <a href="">Digital Maketing Dark</a>
+                                <a href="#">Digital Maketing Dark</a>
                               </li>
                               <li className="list-group-item border-0">
-                                <a href="">Design Studio</a>
+                                <a href="#">Design Studio</a>
                               </li>
                               <li className="list-group-item border-0">
-                                <a href="">Digital Maketing</a>
+                                <a href="#">Digital Maketing</a>
                               </li>
                               <li className="list-group-item border-0">
-                                <a href="">Digital Maketing Dark</a>
+                                <a href="#">Digital Maketing Dark</a>
                               </li>
                               <li className="list-group-item border-0">
-                                <a href="">Design Studio</a>
+                                <a href="#">Design Studio</a>
                               </li>
                             </ul>
                           </div>
@@ -134,31 +134,31 @@ function Header() {
                           <div className="accordion-body">
                           <ul className="list-group">
                               <li className="list-group-item border-0">
-                                <a href="">Digital Maketing</a>
+                                <a href="#">Digital Maketing</a>
                               </li>
                               <li className="list-group-item border-0">
-                                <a href="">Digital Maketing Dark</a>
+                                <a href="#">Digital Maketing Dark</a>
                               </li>
                               <li className="list-group-item border-0">
-                                <a href="">Design Studio</a>
+                                <a href="#">Design Studio</a>
                               </li>
                               <li className="list-group-item border-0">
-                                <a href="">Digital Maketing</a>
+                                <a href="#">Digital Maketing</a>
                               </li>
                               <li className="list-group-item border-0">
-                                <a href="">Digital Maketing Dark</a>
+                                <a href="#">Digital Maketing Dark</a>
                               </li>
                               <li className="list-group-item border-0">
-                                <a href="">Design Studio</a>
+                                <a href="#">Design Studio</a>
                               </li>
                               <li className="list-group-item border-0">
-                                <a href="">Digital Maketing</a>
+                                <a href="#">Digital Maketing</a>
                               </li>
                               <li className="list-group-item border-0">
-                                <a href="">Digital Maketing Dark</a>
+                                <a href="#">Digital Maketing Dark</a>
                               </li>
                               <li className="list-group-item border-0">
-                                <a href="">Design Studio</a>
+                                <a href="#">Design Studio</a>
                               </li>
                             </ul>
                           </div>
@@ -175,31 +175,31 @@ function Header() {
                           <div className="accordion-body">
                           <ul className="list-group">
                               <li className="list-group-item border-0">
-                                <a href="">Digital Maketing</a>
+                                <a href="#">Digital Maketing</a>
                               </li>
                               <li className="list-group-item border-0">
-                                <a href="">Digital Maketing Dark</a>
+                                <a href="#">Digital Maketing Dark</a>
                               </li>
                               <li className="list-group-item border-0">
-                                <a href="">Design Studio</a>
+                                <a href="#">Design Studio</a>
                               </li>
                               <li className="list-group-item border-0">
-                                <a href="">Digital Maketing</a>
+                                <a href="#">Digital Maketing</a>
                               </li>
                               <li className="list-group-item border-0">
-                                <a href="">Digital Maketing Dark</a>
+                                <a href="#">Digital Maketing Dark</a>
                               </li>
                               <li className="list-group-item border-0">
-                                <a href="">Design Studio</a>
+                                <a href="#">Design Studio</a>
                               </li>
                               <li className="list-group-item border-0">
-                                <a href="">Digital Maketing</a>
+                                <a href="#">Digital Maketing</a>
                               </li>
                               <li className="list-group-item border-0">
-                                <a href="">Digital Maketing Dark</a>
+                                <a href="#">Digital Maketing Dark</a>
                               </li>
                               <li className="list-group-item border-0">
-                                <a href="">Design Studio</a>
+                                <a href="#">Design Studio</a>
                               </li>
                             </ul>
                           </div>

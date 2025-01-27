@@ -6,7 +6,7 @@ const Nav = () => {
       <ul className={style.navItem}>
         <li>
           <div className={style.homeDropdown}>
-            <a href="">
+            <a href="#">
               <div className={style.navText}>
                 <span className={style.navLetter}>H</span>
                 <span className={style.navLetter}>O</span>
@@ -20,25 +20,25 @@ const Nav = () => {
                   <h5>Agency</h5>
                   <ul className="p-0">
                     <li>
-                      <a>Digital Marketing</a>
+                      <a href="# ">Digital Marketing</a>
                     </li>
                     <li>
-                      <a>Design Studio</a>
+                      <a href="# ">Design Studio</a>
                     </li>
                     <li>
-                      <a>Digital Agency</a>
+                      <a href="# ">Digital Agency</a>
                     </li>
                     <li>
-                      <a>Creative Agency</a>
+                      <a href="# ">Creative Agency</a>
                     </li>
                     <li>
-                      <a>Startup Agency</a>
+                      <a href="# ">Startup Agency</a>
                     </li>
                     <li>
-                      <a>Modern Agency</a>
+                      <a href="# ">Modern Agency</a>
                     </li>
                     <li>
-                      <a>Personal Portfolio</a>
+                      <a href="# ">Personal Portfolio</a>
                     </li>
                   </ul>
                 </div>
@@ -46,25 +46,25 @@ const Nav = () => {
                   <h5>Agency</h5>
                   <ul className="p-0">
                     <li>
-                      <a>Digital Marketing</a>
+                      <a href="# ">Digital Marketing</a>
                     </li>
                     <li>
-                      <a>Design Studio</a>
+                      <a href="# ">Design Studio</a>
                     </li>
                     <li>
-                      <a>Digital Agency</a>
+                      <a href="# ">Digital Agency</a>
                     </li>
                     <li>
-                      <a>Creative Agency</a>
+                      <a href="# ">Creative Agency</a>
                     </li>
                     <li>
-                      <a>Startup Agency</a>
+                      <a href="# ">Startup Agency</a>
                     </li>
                     <li>
-                      <a>Modern Agency</a>
+                      <a href="# ">Modern Agency</a>
                     </li>
                     <li>
-                      <a>Personal Portfolio</a>
+                      <a href="# ">Personal Portfolio</a>
                     </li>
                   </ul>
                 </div>
@@ -73,7 +73,7 @@ const Nav = () => {
           </div>
         </li>
         <li>
-          <a href="">
+          <a href="#">
             <div className={style.navText}>
                 <span className={style.navLetter}>A</span>
                 <span className={style.navLetter}>B</span>
@@ -85,7 +85,7 @@ const Nav = () => {
         </li>
         <li>
           <div className={style.pageDropdown}>
-            <a href="">
+            <a href="#">
               <div className={style.navText}>
                   <span className={style.navLetter}>P</span>
                   <span className={style.navLetter}>A</span>
@@ -99,51 +99,25 @@ const Nav = () => {
                   <h5>Agency</h5>
                   <ul className="p-0">
                     <li>
-                      <a>Digital Marketing</a>
+                      <a href="# ">Digital Marketing</a>
                     </li>
                     <li>
-                      <a>Design Studio</a>
+                      <a href="# ">Design Studio</a>
                     </li>
                     <li>
-                      <a>Digital Agency</a>
+                      <a href="# ">Digital Agency</a>
                     </li>
                     <li>
-                      <a>Creative Agency</a>
+                      <a href="# ">Creative Agency</a>
                     </li>
                     <li>
-                      <a>Startup Agency</a>
+                      <a href="# ">Startup Agency</a>
                     </li>
                     <li>
-                      <a>Modern Agency</a>
+                      <a href="# ">Modern Agency</a>
                     </li>
                     <li>
-                      <a>Personal Portfolio</a>
-                    </li>
-                  </ul>
-                </div>
-                <div>
-                  <h5>Agency</h5>
-                  <ul className="p-0">
-                    <li>
-                      <a>Digital Marketing</a>
-                    </li>
-                    <li>
-                      <a>Design Studio</a>
-                    </li>
-                    <li>
-                      <a>Digital Agency</a>
-                    </li>
-                    <li>
-                      <a>Creative Agency</a>
-                    </li>
-                    <li>
-                      <a>Startup Agency</a>
-                    </li>
-                    <li>
-                      <a>Modern Agency</a>
-                    </li>
-                    <li>
-                      <a>Personal Portfolio</a>
+                      <a href="# ">Personal Portfolio</a>
                     </li>
                   </ul>
                 </div>
@@ -151,25 +125,25 @@ const Nav = () => {
                   <h5>Agency</h5>
                   <ul className="p-0">
                     <li>
-                      <a>Digital Marketing</a>
+                      <a href="# ">Digital Marketing</a>
                     </li>
                     <li>
-                      <a>Design Studio</a>
+                      <a href="# ">Design Studio</a>
                     </li>
                     <li>
-                      <a>Digital Agency</a>
+                      <a href="# ">Digital Agency</a>
                     </li>
                     <li>
-                      <a>Creative Agency</a>
+                      <a href="# ">Creative Agency</a>
                     </li>
                     <li>
-                      <a>Startup Agency</a>
+                      <a href="# ">Startup Agency</a>
                     </li>
                     <li>
-                      <a>Modern Agency</a>
+                      <a href="# ">Modern Agency</a>
                     </li>
                     <li>
-                      <a>Personal Portfolio</a>
+                      <a href="# ">Personal Portfolio</a>
                     </li>
                   </ul>
                 </div>
@@ -177,25 +151,51 @@ const Nav = () => {
                   <h5>Agency</h5>
                   <ul className="p-0">
                     <li>
-                      <a>Digital Marketing</a>
+                      <a href="# ">Digital Marketing</a>
                     </li>
                     <li>
-                      <a>Design Studio</a>
+                      <a href="# ">Design Studio</a>
                     </li>
                     <li>
-                      <a>Digital Agency</a>
+                      <a href="# ">Digital Agency</a>
                     </li>
                     <li>
-                      <a>Creative Agency</a>
+                      <a href="# ">Creative Agency</a>
                     </li>
                     <li>
-                      <a>Startup Agency</a>
+                      <a href="# ">Startup Agency</a>
                     </li>
                     <li>
-                      <a>Modern Agency</a>
+                      <a href="# ">Modern Agency</a>
                     </li>
                     <li>
-                      <a>Personal Portfolio</a>
+                      <a href="# ">Personal Portfolio</a>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <h5>Agency</h5>
+                  <ul className="p-0">
+                    <li>
+                      <a href="# ">Digital Marketing</a>
+                    </li>
+                    <li>
+                      <a href="# ">Design Studio</a>
+                    </li>
+                    <li>
+                      <a href="# ">Digital Agency</a>
+                    </li>
+                    <li>
+                      <a href="# ">Creative Agency</a>
+                    </li>
+                    <li>
+                      <a href="# ">Startup Agency</a>
+                    </li>
+                    <li>
+                      <a href="# ">Modern Agency</a>
+                    </li>
+                    <li>
+                      <a href="# ">Personal Portfolio</a>
                     </li>
                   </ul>
                 </div>
@@ -206,7 +206,7 @@ const Nav = () => {
 
         <li>
           <div className={style.serviceDropdown}>
-            <a href="">
+            <a href="#">
               <div className={style.navText}>
               <span className={style.navLetter}>S</span>
                 <span className={style.navLetter}>E</span>
@@ -222,25 +222,25 @@ const Nav = () => {
                   <h5>Agency</h5>
                   <ul className="p-0">
                     <li>
-                      <a>Digital Marketing</a>
+                      <a href="# ">Digital Marketing</a>
                     </li>
                     <li>
-                      <a>Design Studio</a>
+                      <a href="# ">Design Studio</a>
                     </li>
                     <li>
-                      <a>Digital Agency</a>
+                      <a href="# ">Digital Agency</a>
                     </li>
                     <li>
-                      <a>Creative Agency</a>
+                      <a href="# ">Creative Agency</a>
                     </li>
                     <li>
-                      <a>Startup Agency</a>
+                      <a href="# ">Startup Agency</a>
                     </li>
                     <li>
-                      <a>Modern Agency</a>
+                      <a href="# ">Modern Agency</a>
                     </li>
                     <li>
-                      <a>Personal Portfolio</a>
+                      <a href="# ">Personal Portfolio</a>
                     </li>
                   </ul>
                 </div>
@@ -250,7 +250,7 @@ const Nav = () => {
         </li>
         <li>
         <div className={style.serviceDropdown}>
-            <a href="">
+            <a href="#">
               <div className={style.navText}>
                 <span className={style.navLetter}>T</span>
                 <span className={style.navLetter}>E</span>
@@ -264,10 +264,10 @@ const Nav = () => {
                   <h5>Agency</h5>
                   <ul className="p-0">
                     <li>
-                      <a>Digital Marketing</a>
+                      <a href="# ">Digital Marketing</a>
                     </li>
                     <li>
-                      <a>Design Studio</a>
+                      <a href="# ">Design Studio</a>
                     </li>
                   </ul>
                 </div>
@@ -276,7 +276,7 @@ const Nav = () => {
           </div>
         </li>
         <li>
-          <a href="">
+          <a href="#">
           <div className={style.navText}>
                 <span className={style.navLetter}>C</span>
                 <span className={style.navLetter}>O</span>
